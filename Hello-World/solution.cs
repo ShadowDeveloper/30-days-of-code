@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+class Solution {
+    static void Main(String[] args) {
+        // Declare a variable named 'input_string' to hold our input.
+        String input_string; 
+        
+        // Read a full line of input from stdin (cin) and save it to our variable, input_string.
+        input_string = Console.ReadLine(); 
+        
+        // Print a string literal saying "Hello, World." to stdout using cout.
+        Console.WriteLine("Hello, World.");
+        
+        // TODO: Write a line of code here that prints the contents of input_string to stdout.
+        Console.WriteLine(input_string);
+        Console.ReadKey();
+    }
+}
